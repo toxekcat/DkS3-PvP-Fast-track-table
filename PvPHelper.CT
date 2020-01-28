@@ -11,7 +11,7 @@
       <ID>249</ID>
       <Description>"Heavily modified TGA Table (Version 1.2.2-inu)"</Description>
       <Options moHideChildren="1"/>
-      <LastState Activated="1"/>
+      <LastState/>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 {$asm}
@@ -667,7 +667,7 @@ unregisterSymbol(XC)
             <CheatEntry>
               <ID>73030</ID>
               <Description>"Save Slot (Profile Index)"</Description>
-              <LastState Value="255" RealAddress="7FF49E86DCB0"/>
+              <LastState Value="1" RealAddress="7FF49E86DCB0"/>
               <Color>000000</Color>
               <VariableType>Byte</VariableType>
               <Address>BaseC</Address>
@@ -784,7 +784,7 @@ unregisterSymbol(XC)
 5112950:Slave Knight Gael
 5102951:Darkeater Midir
 </DropDownList>
-              <LastState Value="-1" RealAddress="7FF49E86DD1C"/>
+              <LastState Value="4002950" RealAddress="7FF49E86DD1C"/>
               <ShowAsSigned>1</ShowAsSigned>
               <Color>000000</Color>
               <VariableType>4 Bytes</VariableType>
@@ -931,7 +931,7 @@ unregisterSymbol(XC)
                 <CheatEntry>
                   <ID>72322</ID>
                   <Description>""</Description>
-                  <LastState RealAddress="7FF427F4BE08"/>
+                  <LastState RealAddress="7FF427F30018"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>String</VariableType>
                   <Length>16</Length>
@@ -978,7 +978,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
             <CheatEntry>
               <ID>72979</ID>
               <Description>"Ember"</Description>
-              <LastState Value="0" RealAddress="7FF49E86F2A0"/>
+              <LastState Value="1" RealAddress="7FF49E86F2A0"/>
               <Color>0080FF</Color>
               <VariableType>Byte</VariableType>
               <Address>BaseA</Address>
@@ -1000,6 +1000,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
             <CheatEntry>
               <ID>1337036798</ID>
               <Description>"Speed Modifier (Debug Play Speed)"</Description>
+              <LastState Value="1" RealAddress="7FF4AD2D3978"/>
               <VariableType>Float</VariableType>
               <Address>BaseB</Address>
               <Offsets>
@@ -1012,7 +1013,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
             <CheatEntry>
               <ID>1337036800</ID>
               <Description>"Global Speed"</Description>
-              <LastState Value="1" RealAddress="140999C28"/>
+              <LastState Value="0.3000000119" RealAddress="140999C28"/>
               <VariableType>Float</VariableType>
               <Address>DarkSoulsIII.exe+999C28</Address>
             </CheatEntry>
@@ -1123,7 +1124,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="4" RealAddress="7FF49E855D14"/>
+                      <LastState Value="16" RealAddress="7FF49E855D14"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1276,7 +1277,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="20" RealAddress="7FF49E855D20"/>
+                      <LastState Value="32" RealAddress="7FF49E855D20"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1327,7 +1328,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="22" RealAddress="7FF49E855D24"/>
+                      <LastState Value="38" RealAddress="7FF49E855D24"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1378,7 +1379,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="32" RealAddress="7FF49E855D28"/>
+                      <LastState Value="12" RealAddress="7FF49E855D28"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1477,7 +1478,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="10" RealAddress="7FF49E88F790"/>
+                      <LastState Value="11" RealAddress="7FF49E88F790"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1495,7 +1496,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="12" RealAddress="7FF49E88F794"/>
+                      <LastState Value="13" RealAddress="7FF49E88F794"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1513,7 +1514,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="14" RealAddress="7FF49E88F798"/>
+                      <LastState Value="15" RealAddress="7FF49E88F798"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1531,7 +1532,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="16" RealAddress="7FF49E88F79C"/>
+                      <LastState Value="17" RealAddress="7FF49E88F79C"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1549,7 +1550,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="18" RealAddress="7FF49E88F7A0"/>
+                      <LastState Value="19" RealAddress="7FF49E88F7A0"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1603,7 +1604,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="24" RealAddress="7FF49E88F7AC"/>
+                      <LastState Value="25" RealAddress="7FF49E88F7AC"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1621,7 +1622,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="26" RealAddress="7FF49E88F7B0"/>
+                      <LastState Value="27" RealAddress="7FF49E88F7B0"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1639,7 +1640,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="28" RealAddress="7FF49E88F7B4"/>
+                      <LastState Value="29" RealAddress="7FF49E88F7B4"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1657,7 +1658,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="30" RealAddress="7FF49E88F7B8"/>
+                      <LastState Value="31" RealAddress="7FF49E88F7B8"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1693,7 +1694,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="34" RealAddress="7FF49E88F7C0"/>
+                      <LastState Value="35" RealAddress="7FF49E88F7C0"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1711,7 +1712,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="36" RealAddress="7FF49E88F7C4"/>
+                      <LastState Value="37" RealAddress="7FF49E88F7C4"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1729,7 +1730,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="38" RealAddress="7FF49E88F7C8"/>
+                      <LastState Value="39" RealAddress="7FF49E88F7C8"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1747,7 +1748,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="40" RealAddress="7FF49E88F7CC"/>
+                      <LastState Value="41" RealAddress="7FF49E88F7CC"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1765,7 +1766,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="42" RealAddress="7FF49E88F7D0"/>
+                      <LastState Value="43" RealAddress="7FF49E88F7D0"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1783,7 +1784,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="44" RealAddress="7FF49E88F7D4"/>
+                      <LastState Value="45" RealAddress="7FF49E88F7D4"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1801,7 +1802,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="46" RealAddress="7FF49E88F7D8"/>
+                      <LastState Value="47" RealAddress="7FF49E88F7D8"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1819,7 +1820,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="48" RealAddress="7FF49E88F7DC"/>
+                      <LastState Value="49" RealAddress="7FF49E88F7DC"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1837,7 +1838,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="50" RealAddress="7FF49E88F7E0"/>
+                      <LastState Value="51" RealAddress="7FF49E88F7E0"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1855,7 +1856,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="52" RealAddress="7FF49E88F7E4"/>
+                      <LastState Value="53" RealAddress="7FF49E88F7E4"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1873,7 +1874,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="54" RealAddress="7FF49E88F7E8"/>
+                      <LastState Value="55" RealAddress="7FF49E88F7E8"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1891,7 +1892,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="56" RealAddress="7FF49E88F7EC"/>
+                      <LastState Value="57" RealAddress="7FF49E88F7EC"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1909,7 +1910,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="58" RealAddress="7FF49E88F7F0"/>
+                      <LastState Value="59" RealAddress="7FF49E88F7F0"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1927,7 +1928,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="60" RealAddress="7FF49E88F7F4"/>
+                      <LastState Value="61" RealAddress="7FF49E88F7F4"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1945,7 +1946,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="62" RealAddress="7FF49E88F7F8"/>
+                      <LastState Value="63" RealAddress="7FF49E88F7F8"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1963,7 +1964,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="64" RealAddress="7FF49E88F7FC"/>
+                      <LastState Value="65" RealAddress="7FF49E88F7FC"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -1981,7 +1982,7 @@ db 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 
 
 </DropDownList>
-                      <LastState Value="66" RealAddress="7FF49E88F800"/>
+                      <LastState Value="67" RealAddress="7FF49E88F800"/>
                       <VariableType>Byte</VariableType>
                       <Address>BaseA</Address>
                       <Offsets>
@@ -2425,7 +2426,7 @@ dealloc(newmemw)
                 <CheatEntry>
                   <ID>1337033263</ID>
                   <Description>"Time"</Description>
-                  <LastState Value="4.272559018E-42" RealAddress="7FFB5CDF39B0"/>
+                  <LastState Value="4.272559018E-42" RealAddress="7FF86F8B39B0"/>
                   <VariableType>Float</VariableType>
                   <Address>Time</Address>
                 </CheatEntry>
@@ -2441,17 +2442,9 @@ dealloc(newmemw)
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
-              <ID>1337080810</ID>
-              <Description>"Hitbox Viewer"</Description>
-              <VariableType>Byte</VariableType>
-              <Address>DarkSoulsIII.exe+4766B80</Address>
-              <Offsets>
-                <Offset>30</Offset>
-              </Offsets>
-            </CheatEntry>
-            <CheatEntry>
               <ID>78541</ID>
               <Description>"No Dead"</Description>
+              <LastState Value="0" RealAddress="7FF4AD2D2EB0"/>
               <ShowAsSigned>1</ShowAsSigned>
               <VariableType>Binary</VariableType>
               <BitStart>2</BitStart>
@@ -2468,6 +2461,7 @@ dealloc(newmemw)
             <CheatEntry>
               <ID>86081</ID>
               <Description>"No Goods Consume"</Description>
+              <LastState Value="0" RealAddress="7FF4AD2D19CA"/>
               <ShowAsHex>1</ShowAsHex>
               <Color>000000</Color>
               <VariableType>Binary</VariableType>
@@ -26972,7 +26966,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
             <CheatEntry>
               <ID>80343</ID>
               <Description>"Example: Ceremony param"</Description>
-              <LastState RealAddress="7FF49F414F50"/>
+              <LastState RealAddress="7FF49F4320F0"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>String</VariableType>
               <Length>32</Length>
@@ -26991,7 +26985,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80282</ID>
           <Description>"ActionButtonParam"</Description>
-          <LastState RealAddress="7FF49EFDFD50"/>
+          <LastState RealAddress="7FF49EFFB140"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27010,7 +27004,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80287</ID>
           <Description>"AiSoundParam"</Description>
-          <LastState RealAddress="7FF49EFE6490"/>
+          <LastState RealAddress="7FF49F001870"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27029,7 +27023,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80339</ID>
           <Description>"AtkParam_Npc"</Description>
-          <LastState RealAddress="7FF49EFE7880"/>
+          <LastState RealAddress="7FF49F002C50"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27048,7 +27042,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80340</ID>
           <Description>"AtkParam_Pc"</Description>
-          <LastState RealAddress="7FF49FE5B290"/>
+          <LastState RealAddress="7FF49FE55960"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27067,7 +27061,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80332</ID>
           <Description>"AttackElementCorrectParam "</Description>
-          <LastState RealAddress="7FF49F1FE8B0"/>
+          <LastState RealAddress="7FF49F219C70"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27086,7 +27080,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80253</ID>
           <Description>"BehaviorParam"</Description>
-          <LastState RealAddress="7FF49F206E50"/>
+          <LastState RealAddress="7FF49F2222B0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27105,7 +27099,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80260</ID>
           <Description>"BehaviorParam_PC"</Description>
-          <LastState RealAddress="7FF49F293200"/>
+          <LastState RealAddress="7FF49F2AE650"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27124,7 +27118,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80302</ID>
           <Description>"BonfireWarpParam"</Description>
-          <LastState RealAddress="7FF49F315940"/>
+          <LastState RealAddress="7FF49F331350"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27143,7 +27137,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80303</ID>
           <Description>"BudgetParam"</Description>
-          <LastState RealAddress="7FF49F3193D0"/>
+          <LastState RealAddress="7FF49F334DD0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27162,7 +27156,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80254</ID>
           <Description>"Bullet"</Description>
-          <LastState RealAddress="7FF49F319680"/>
+          <LastState RealAddress="7FF49F335080"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27181,7 +27175,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80328</ID>
           <Description>"BulletCreateLimitParam "</Description>
-          <LastState RealAddress="7FF49F410180"/>
+          <LastState RealAddress="7FF49F42D370"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27200,7 +27194,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80272</ID>
           <Description>"CalcCorrectGraph"</Description>
-          <LastState RealAddress="7FF49F410840"/>
+          <LastState RealAddress="7FF49F42DA10"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27219,7 +27213,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80298</ID>
           <Description>"Ceremony"</Description>
-          <LastState RealAddress="7FF49F413750"/>
+          <LastState RealAddress="7FF49F430900"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27238,7 +27232,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80261</ID>
           <Description>"CharacterInitParam"</Description>
-          <LastState RealAddress="7FF4A00B9B60"/>
+          <LastState RealAddress="7FF4A00B5650"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27257,7 +27251,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>1337080394</ID>
           <Description>"CharacterLoadParam"</Description>
-          <LastState RealAddress="7FF49F415070"/>
+          <LastState RealAddress="7FF49F432210"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
           <Length>0</Length>
@@ -27275,7 +27269,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80295</ID>
           <Description>"CharMakeMenuListItemParam"</Description>
-          <LastState RealAddress="7FF49F416E60"/>
+          <LastState RealAddress="7FF4A0151A90"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27294,7 +27288,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80296</ID>
           <Description>"CharMakeMenuTopParam "</Description>
-          <LastState RealAddress="7FF49F41C7E0"/>
+          <LastState RealAddress="7FF4A0157240"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27313,7 +27307,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80327</ID>
           <Description>"ClearCountCorrectParam "</Description>
-          <LastState RealAddress="7FF49F4229B0"/>
+          <LastState RealAddress="7FF49F434330"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27332,7 +27326,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80336</ID>
           <Description>"CoolTimeParam"</Description>
-          <LastState RealAddress="7FF49F423130"/>
+          <LastState RealAddress="7FF49F434A90"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27351,7 +27345,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80319</ID>
           <Description>"CultSettingParam "</Description>
-          <LastState RealAddress="7FF49F423D50"/>
+          <LastState RealAddress="7FF49F4356A0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27370,7 +27364,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80283</ID>
           <Description>"DecalParam"</Description>
-          <LastState RealAddress="7FF49F4245A0"/>
+          <LastState RealAddress="7FF4A015D260"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27389,7 +27383,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80308</ID>
           <Description>"DirectionCameraParam "</Description>
-          <LastState RealAddress="7FF49F42EEF0"/>
+          <LastState RealAddress="7FF49F436070"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27408,7 +27402,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80268</ID>
           <Description>"EquipMtrlSetParam"</Description>
-          <LastState RealAddress="7FF4A0155FB0"/>
+          <LastState RealAddress="7FF4A0167A10"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27427,7 +27421,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80247</ID>
           <Description>"EquipParamAccessory"</Description>
-          <LastState RealAddress="7FF49F42F610"/>
+          <LastState RealAddress="7FF4A0180ED0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27446,7 +27440,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80341</ID>
           <Description>"EquipParamGoods"</Description>
-          <LastState RealAddress="7FF4A016F480"/>
+          <LastState RealAddress="7FF4A0186DF0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27465,7 +27459,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80246</ID>
           <Description>"EquipParamProtector"</Description>
-          <LastState RealAddress="7FF4A018AD50"/>
+          <LastState RealAddress="7FF4A01A22E0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27484,7 +27478,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80245</ID>
           <Description>"EquipParamWeapon"</Description>
-          <LastState RealAddress="7FF4A01D6B30"/>
+          <LastState RealAddress="7FF4A01F4720"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27503,7 +27497,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80267</ID>
           <Description>"FaceGenParam"</Description>
-          <LastState RealAddress="7FF4A056F4D0"/>
+          <LastState RealAddress="7FF4A05A2850"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27522,7 +27516,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80266</ID>
           <Description>"FaceParam"</Description>
-          <LastState RealAddress="7FF4A0577010"/>
+          <LastState RealAddress="7FF4A05AA380"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27541,7 +27535,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80265</ID>
           <Description>"FaceRangeParam"</Description>
-          <LastState RealAddress="7FF4A059FCB0"/>
+          <LastState RealAddress="7FF49F4370C0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27560,7 +27554,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80330</ID>
           <Description>"FootSfxParam "</Description>
-          <LastState RealAddress="7FF4A05A03E0"/>
+          <LastState RealAddress="7FF4A05D3020"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27579,7 +27573,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80274</ID>
           <Description>"GameAreaParam"</Description>
-          <LastState RealAddress="7FF4A05AA520"/>
+          <LastState RealAddress="7FF4A05DCFD0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27598,7 +27592,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80326</ID>
           <Description>"GameProgressParam "</Description>
-          <LastState RealAddress="7FF4A05AC3F0"/>
+          <LastState RealAddress="7FF49F437AF0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27617,7 +27611,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80277</ID>
           <Description>"GemCategoryParam"</Description>
-          <LastState RealAddress="7FF4A05AC9D0"/>
+          <LastState RealAddress="7FF49F4380B0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27636,7 +27630,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80291</ID>
           <Description>"GemDropDopingParam"</Description>
-          <LastState RealAddress="7FF4A05ACE30"/>
+          <LastState RealAddress="7FF4A05DEDA0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27655,7 +27649,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80290</ID>
           <Description>"GemDropModifyParam"</Description>
-          <LastState RealAddress="7FF4A05AD0F0"/>
+          <LastState RealAddress="7FF4A05DF060"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27674,7 +27668,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80278</ID>
           <Description>"GemeffectParam"</Description>
-          <LastState RealAddress="7FF4A05AD3D0"/>
+          <LastState RealAddress="7FF4A05DF310"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27693,7 +27687,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80279</ID>
           <Description>"GemGenParam"</Description>
-          <LastState RealAddress="7FF4A05AD7F0"/>
+          <LastState RealAddress="7FF4A05DF730"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27712,7 +27706,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80312</ID>
           <Description>"HitEffectSeParam "</Description>
-          <LastState RealAddress="7FF4A05ADD50"/>
+          <LastState RealAddress="7FF4A05DFC90"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27731,7 +27725,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80293</ID>
           <Description>"HitEffectSfxConceptParam"</Description>
-          <LastState RealAddress="7FF4A05BC6D0"/>
+          <LastState RealAddress="7FF4A05EE5F0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27750,7 +27744,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80292</ID>
           <Description>"HitEffectSfxParam"</Description>
-          <LastState RealAddress="7FF4A05BFC10"/>
+          <LastState RealAddress="7FF4A05F1B10"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27769,7 +27763,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80317</ID>
           <Description>"HPEstusFlaskRecoveryParam "</Description>
-          <LastState RealAddress="7FF4A05C47B0"/>
+          <LastState RealAddress="7FF4A05F6680"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27788,7 +27782,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80263</ID>
           <Description>"ItemLotParam"</Description>
-          <LastState RealAddress="7FF4A05C5240"/>
+          <LastState RealAddress="7FF4A05F70F0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27807,7 +27801,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80269</ID>
           <Description>"KnockBackParam"</Description>
-          <LastState RealAddress="7FF4A06A4940"/>
+          <LastState RealAddress="7FF4A06D9A50"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27826,7 +27820,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80323</ID>
           <Description>"KnowledgeLoadScreenItemParam "</Description>
-          <LastState RealAddress="7FF4A06A4D80"/>
+          <LastState RealAddress="7FF4A06D9E80"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27845,7 +27839,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80337</ID>
           <Description>"LoadBalancerDrawDistScaleParam "</Description>
-          <LastState RealAddress="7FF4A06A5800"/>
+          <LastState RealAddress="7FF4A06E0600"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27864,7 +27858,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80321</ID>
           <Description>"LoadBalancerParam "</Description>
-          <LastState RealAddress="7FF4A06A84E0"/>
+          <LastState RealAddress="7FF4A06E32C0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27883,7 +27877,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80271</ID>
           <Description>"LockCamParam"</Description>
-          <LastState RealAddress="7FF4A06A8850"/>
+          <LastState RealAddress="7FF4A06E3610"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27902,7 +27896,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>1337080404</ID>
           <Description>"LodParam"</Description>
-          <LastState RealAddress="7FF4A06AE910"/>
+          <LastState RealAddress="7FF4A06E96C0"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>String</VariableType>
           <Length>0</Length>
@@ -27920,7 +27914,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80259</ID>
           <Description>"Magic"</Description>
-          <LastState RealAddress="7FF4A06B4EE0"/>
+          <LastState RealAddress="7FF4A06EF540"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27939,7 +27933,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80314</ID>
           <Description>"MapMimicryEstablishmentParam "</Description>
-          <LastState RealAddress="7FF4A06C16B0"/>
+          <LastState RealAddress="7FF4A06FBD00"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27958,7 +27952,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80324</ID>
           <Description>"MenuOffscrRendParam "</Description>
-          <LastState RealAddress="7FF4A06C2DB0"/>
+          <LastState RealAddress="7FF4A06FD3D0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27977,7 +27971,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80300</ID>
           <Description>"MenuPropertyLayoutParam"</Description>
-          <LastState RealAddress="7FF4A06C3400"/>
+          <LastState RealAddress="7FF4A06FDA10"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -27996,7 +27990,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80301</ID>
           <Description>"MenuPropertySpecParam"</Description>
-          <LastState RealAddress="7FF4A06CCF60"/>
+          <LastState RealAddress="7FF4A0707530"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28015,7 +28009,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80299</ID>
           <Description>"MenuValueTableParam"</Description>
-          <LastState RealAddress="7FF4A06D2110"/>
+          <LastState RealAddress="7FF4A070C6B0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28034,7 +28028,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80289</ID>
           <Description>"ModelSfxParam"</Description>
-          <LastState RealAddress="7FF4A06D3460"/>
+          <LastState RealAddress="7FF4A070D9F0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28053,7 +28047,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80262</ID>
           <Description>"Move Param"</Description>
-          <LastState RealAddress="7FF4A06D9200"/>
+          <LastState RealAddress="7FF4A0713780"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28072,7 +28066,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80316</ID>
           <Description>"MPEstusFlaskRecoveryParam "</Description>
-          <LastState RealAddress="7FF4A06DC210"/>
+          <LastState RealAddress="7FF4A0716790"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28091,7 +28085,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80325</ID>
           <Description>"MultiHPEstusFlaskBonusParam "</Description>
-          <LastState RealAddress="7FF4A06DCCC0"/>
+          <LastState RealAddress="7FF4A0717220"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28110,7 +28104,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80338</ID>
           <Description>"MultiMPEstusFlaskBonusParam "</Description>
-          <LastState RealAddress="7FF4A06DD270"/>
+          <LastState RealAddress="7FF4A07177B0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28129,7 +28123,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80315</ID>
           <Description>"MultiPlayCorrectionParam "</Description>
-          <LastState RealAddress="7FF4A06DD820"/>
+          <LastState RealAddress="7FF4A0717D40"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28148,7 +28142,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80285</ID>
           <Description>"NetWorkAreaParam"</Description>
-          <LastState RealAddress="7FF4A06DF1E0"/>
+          <LastState RealAddress="7FF4A07196C0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28167,7 +28161,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80304</ID>
           <Description>"NetworkMsgParam"</Description>
-          <LastState RealAddress="7FF4A06DFD70"/>
+          <LastState RealAddress="7FF4A071A230"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28186,7 +28180,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80305</ID>
           <Description>"NetworkParam"</Description>
-          <LastState RealAddress="7FF4A06E2C90"/>
+          <LastState RealAddress="7FF4A071D140"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28205,7 +28199,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80294</ID>
           <Description>"NewMenuColorTableParam "</Description>
-          <LastState RealAddress="7FF4A06E3140"/>
+          <LastState RealAddress="7FF4A071D5F0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28224,7 +28218,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80329</ID>
           <Description>"NpcAiActionParam "</Description>
-          <LastState RealAddress="7FF4A06E46C0"/>
+          <LastState RealAddress="7FF4A071EB70"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28243,7 +28237,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80249</ID>
           <Description>"NpcParam"</Description>
-          <LastState RealAddress="7FF4A06E6020"/>
+          <LastState RealAddress="7FF4A07204C0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28262,7 +28256,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80252</ID>
           <Description>"NpcThinkParam"</Description>
-          <LastState RealAddress="7FF4A07A59A0"/>
+          <LastState RealAddress="7FF4A07DFE20"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28281,7 +28275,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80270</ID>
           <Description>"ObjActParam"</Description>
-          <LastState RealAddress="7FF4A07D6900"/>
+          <LastState RealAddress="7FF4A0810D70"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28300,7 +28294,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80322</ID>
           <Description>"ObjectMaterialSfxParam "</Description>
-          <LastState RealAddress="7FF4A07DAB20"/>
+          <LastState RealAddress="7FF4A0814F80"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28319,7 +28313,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80251</ID>
           <Description>"ObjectParam"</Description>
-          <LastState RealAddress="7FF4A07DC6F0"/>
+          <LastState RealAddress="7FF4A0816B30"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28338,7 +28332,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80297</ID>
           <Description>"PhantomParam"</Description>
-          <LastState RealAddress="7FF4A08112B0"/>
+          <LastState RealAddress="7FF4A084B6E0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28357,7 +28351,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80286</ID>
           <Description>"PlayRegionParam"</Description>
-          <LastState RealAddress="7FF4A08150A0"/>
+          <LastState RealAddress="7FF4A084F4C0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28376,7 +28370,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80280</ID>
           <Description>"ProtectorGenParam"</Description>
-          <LastState RealAddress="7FF4A081B240"/>
+          <LastState RealAddress="7FF4A0855680"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28395,7 +28389,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80276</ID>
           <Description>"RagdollParam"</Description>
-          <LastState RealAddress="7FF4A081B710"/>
+          <LastState RealAddress="7FF4A0855B30"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28414,7 +28408,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80250</ID>
           <Description>"ReinforceParamProtector"</Description>
-          <LastState RealAddress="7FF4A081CCF0"/>
+          <LastState RealAddress="7FF4A0857110"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28433,7 +28427,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80248</ID>
           <Description>"ReinforceParamWeapon"</Description>
-          <LastState RealAddress="7FF4A081D6D0"/>
+          <LastState RealAddress="7FF4A0857AD0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28452,7 +28446,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80307</ID>
           <Description>"RoleParam "</Description>
-          <LastState RealAddress="7FF4A0835610"/>
+          <LastState RealAddress="7FF4A086F9F0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28471,7 +28465,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80309</ID>
           <Description>"SeMaterialConvertParam"</Description>
-          <LastState RealAddress="7FF4A08376F0"/>
+          <LastState RealAddress="7FF4A0871AC0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28490,7 +28484,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80275</ID>
           <Description>"ShopLineupParam"</Description>
-          <LastState RealAddress="7FF4A0838E50"/>
+          <LastState RealAddress="7FF4A0873200"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28509,7 +28503,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80273</ID>
           <Description>"SkeletonParam"</Description>
-          <LastState RealAddress="7FF4A0887560"/>
+          <LastState RealAddress="7FF4A08C90A0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28528,7 +28522,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80258</ID>
           <Description>"SpEffectParam"</Description>
-          <LastState RealAddress="7FF4A0889120"/>
+          <LastState RealAddress="7FF4A08CAC60"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28547,7 +28541,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80257</ID>
           <Description>"SpEffectVfxParam"</Description>
-          <LastState RealAddress="7FF4A0C49CF0"/>
+          <LastState RealAddress="7FF4A0C72B50"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28566,7 +28560,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80318</ID>
           <Description>"SwordArtsParam "</Description>
-          <LastState RealAddress="7FF4A0C7B0B0"/>
+          <LastState RealAddress="7FF4A0CA40D0"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28585,7 +28579,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80264</ID>
           <Description>"TalkParam"</Description>
-          <LastState RealAddress="7FF4A0C81EA0"/>
+          <LastState RealAddress="7FF4A0CAB760"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28604,7 +28598,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80331</ID>
           <Description>"ThrowDirectionSfxParam "</Description>
-          <LastState RealAddress="7FF4A0CBFFC0"/>
+          <LastState RealAddress="7FF4A0CE9870"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28623,7 +28617,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>1337018903</ID>
           <Description>"ToughnessParam"</Description>
-          <LastState RealAddress="7FF4A0CDB200"/>
+          <LastState RealAddress="7FF4A0D04A80"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28642,7 +28636,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80313</ID>
           <Description>"UpperArmParam "</Description>
-          <LastState RealAddress="7FF4A0CDC9F0"/>
+          <LastState RealAddress="7FF4A0D06760"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28661,7 +28655,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80281</ID>
           <Description>"WeaponGenParam"</Description>
-          <LastState RealAddress="7FF4A0CDCFC0"/>
+          <LastState RealAddress="7FF4A0D06D20"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28680,7 +28674,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80311</ID>
           <Description>"WepAbsorpPosParam"</Description>
-          <LastState RealAddress="7FF4A0CDD3D0"/>
+          <LastState RealAddress="7FF4A0D07120"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28699,7 +28693,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80306</ID>
           <Description>"WetAspectParam "</Description>
-          <LastState RealAddress="7FF4A0CE0710"/>
+          <LastState RealAddress="7FF4A0D0A440"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28718,7 +28712,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>80284</ID>
           <Description>"Wind"</Description>
-          <LastState RealAddress="7FF4A0CE1240"/>
+          <LastState RealAddress="7FF4A0D0AF40"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>000000</Color>
           <VariableType>String</VariableType>
@@ -28737,7 +28731,7 @@ writeBytes("[[BaseB]+80]+1ED9", 0)
         <CheatEntry>
           <ID>1337080395</ID>
           <Description>"WhiteSignCoolTimeParam"</Description>
-          <LastState RealAddress="7FF4A0CE0E60"/>
+          <LastState RealAddress="7FF4A0D0AB80"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>String</VariableType>
           <Length>0</Length>
